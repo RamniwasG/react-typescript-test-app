@@ -1,9 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import TestComponent from './components/Test';
-import ClockTest from './components/ClockTest';
-import ComponentWithDefaultProps from './components/ComponentWithDefaultProps';
+import TestComponent from './components/test/Test';
+import ClockTest from './components/clocktest/ClockTest';
+import ComponentWithDefaultProps from './components/componentwithdefaultprops/ComponentWithDefaultProps';
 
 const App: React.FC = () => {
   return (
