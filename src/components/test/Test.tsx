@@ -8,6 +8,7 @@ type CardProps = {
 
 const TestComponent = ({ title, paragraph }: CardProps) => {
     return <React.Fragment>
+        <h1>This is Test Branch update</h1>
         <h2>{title}</h2>
         <h3>{paragraph}</h3>
     </React.Fragment>
