@@ -5,7 +5,7 @@ type ClockState = {
 }
 
 class ClockTest extends Component<{}, ClockState> {
-    
+
     tick() {
         this.setState({
             time: new Date()
@@ -17,12 +17,12 @@ class ClockTest extends Component<{}, ClockState> {
     }
 
     componentDidMount() {
-        setTimeout( () => this.tick(), 1000)
+        setTimeout(() => this.tick(), 1000)
     }
 
     render() {
         return <React.Fragment>
-            <h2>Current time :</h2>
+            <h2>Current time updated in develop branch :</h2>
             <h3>{this.state.time.toLocaleTimeString()}</h3>
         </React.Fragment>
     }
