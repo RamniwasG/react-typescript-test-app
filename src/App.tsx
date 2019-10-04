@@ -10,7 +10,7 @@ const App: React.FC = () => {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <TestComponent title="My Card" paragraph="First TS Component" />
+        <TestComponent title="My Card" paragraph="Develop Branch Component" />
         <ClockTest />
         <ComponentWithDefaultProps />
       </header>
