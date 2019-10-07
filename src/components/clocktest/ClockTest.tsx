@@ -22,7 +22,7 @@ class ClockTest extends Component<{}, ClockState> {
 
     render() {
         return <React.Fragment>
-            <h2>Current time updated in develop branch :</h2>
+            <h2>Current time updated in develop A branch :</h2>
             <h3>{this.state.time.toLocaleTimeString()}</h3>
         </React.Fragment>
     }
